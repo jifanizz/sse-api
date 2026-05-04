@@ -1,0 +1,47 @@
+[
+  {
+    "Rule": "UdeM-PAR-psychia-carnin-he",
+    "AD Group": "vpn-psychia-carnin-he",
+    "Description": "accès serveur carnin-he.psychia.umontreal.ca",
+    "Private Resource": "PR-psychia-carnin-he",
+    "Destination": "carnin-he.psychia.umontreal.ca",
+    "Protocole": "tcp",
+    "Port": "3389,139,445"
+  },
+  {
+    "Rule": "UdeM-PAR-regis-pr2sql2008",
+    "AD Group": "vpn-regis-pr2sql2008",
+    "Description": "accès pour serveur pr2sql2008.sim.umontreal.ca",
+    "Private Resource": "PR-regis-pr2sql2008",
+    "Destination": "www.ecadeau.umontreal.ca",
+    "Protocole": "tcp",
+    "Port": "80,443"
+  },
+  {
+    "Rule": "UdeM-PAR-cepsum-dvsport",
+    "AD Group": "vpn-cepsum-dvsport",
+    "Description": "accès dvsport-cepsum.cepsum",
+    "Private Resource": "PR-cepsum-dvsport",
+    "Destination": "dv360-cepsum.cepsum.umontreal.ca",
+    "Protocole": "tcp",
+    "Port": "139,445,3389"
+  },
+  {
+    "Rule": "UdeM-PAR-ti-novipro",
+    "AD Group": "vpn-ti-novipro",
+    "Description": "acces au serveur de gestion",
+    "Private Resource": "PR-ti-novipro",
+    "Destination": "chicago-sto.dit.umontreal.ca",
+    "Protocole": "tcp",
+    "Port": "3389"
+  },
+ {
+    "Rule": "UdeM-PAR-fas-alphonse",
+    "AD Group": "vpn-fas-alphonse",
+    "Description": "",
+    "Private Resource": "PR-fas-alphonse",
+    "Destination": "alphonse-he.fas.umontreal.ca",
+    "Protocole": "tcp",
+    "Port": "80,443,22"
+  }
+]
