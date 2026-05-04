@@ -28,13 +28,6 @@ If project dependencies live in `pyproject.toml` with a lockfile, use `uv sync` 
 
 ## Usage
 
-**CLI**
-
-```bash
-python main.py
-```
-
-
 ```bash
 cd private-resource
 ```
@@ -44,10 +37,8 @@ Add a `.env` file next to the notebook. Values come from the SSE GUI; the notebo
 
 
 ```env
-API_KEY=<from SSE GUI>
-API_SECRET=<from SSE GUI>
-# Optional override (defaults to Cisco token URL if omitted):
-# TOKEN_URL=https://api.sse.cisco.com/auth/v2/token
+API_KEY='from_SSE_GUI'
+API_SECRET='from_SSE_GUI'
 ```
 
 Do not commit `.env` or credentials.
