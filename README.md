@@ -41,7 +41,6 @@ cd private-resource
 
 Add a `.env` file next to the notebook. Values come from the SSE GUI; the notebook loads them with `dotenv`.
 
-**Notebook** — from `private-resource/`, run `main.ipynb` for a stepped process to create SSE private-resources.
 
 
 ```env
@@ -52,6 +51,9 @@ API_SECRET=<from SSE GUI>
 ```
 
 Do not commit `.env` or credentials.
+
+**Notebook** — from `private-resource/`, run `main.ipynb` for a stepped process to create SSE private-resources.
+
 
 ## Project layout
 
