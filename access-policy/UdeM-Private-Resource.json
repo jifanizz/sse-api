@@ -1,0 +1,45 @@
+b'{
+    "resourceId": 525015,
+    "name": "UdeM-PAR-psychia-carnin-he",
+    "friendlyName": "UdeM-PAR-psychia-carnin-he",
+    "description": "",
+    "dnsServerId": 433,
+    "accessTypes": [
+        {
+            "type": "network"
+        },
+        {
+            "type": "client",
+            "reachableAddresses": [
+                "carnin-he.psychia.umontreal.ca"
+            ],
+            "networkObjectIds": []
+        },
+        {
+            "type": "branch"
+        }
+    ],
+    "resourceAddresses": [
+        {
+            "destinationAddr": [
+                "carnin-he.psychia.umontreal.ca"
+            ],
+            "networkObjectIds": [],
+            "protocolPorts": [
+                {
+                    "protocol": "tcp",
+                    "ports": "139,3389,445"
+                }
+            ]
+        }
+    ],
+    "createdAt": "2026-05-04T16:49:03+00:00",
+    "modifiedAt": "2026-05-04T16:49:03+00:00",
+    "createdBy": "d3a693f066d1490a84ce0dff81e1b46b",
+    "modifiedBy": "d3a693f066d1490a84ce0dff81e1b46b",
+    "resourceGroupIds": [],
+    "certificateId": null,
+    "importSource": null,
+    "enforcement": "CLOUD",
+    "logoUrl": ""
+}'
