@@ -1,0 +1,41 @@
+{
+  "ruleId": 2587073,
+  "ruleExternalId": null,
+  "modifiedAt": "2026-05-04T16:59:18+00:00",
+  "modifiedBy": "org/8167900/user/7118261",
+  "ruleDescription": "",
+  "ruleIName": null,
+  "ruleSettings": [
+    {
+      "settingValue": "LOG_ALL",
+      "settingId": 5,
+      "settingName": "umbrella.logLevel"
+    },
+    {
+      "settingValue": "PRIVATE_NETWORK",
+      "settingId": 9,
+      "settingName": "umbrella.default.traffic"
+    }
+  ],
+  "ruleAction": "allow",
+  "createdAt": "2026-05-04T16:59:18+00:00",
+  "ruleName": "UdeM-PAR-psychia-carnin-he",
+  "ruleIsDefault": false,
+  "ruleConditions": [
+    {
+      "attributeId": 2,
+      "attributeValue": [1346149008],
+      "attributeName": "umbrella.source.identity_ids",
+      "attributeOperator": "INTERSECT"
+    },
+    {
+      "attributeId": 33,
+      "attributeValue": [525015],
+      "attributeName": "umbrella.destination.private_resource_ids",
+      "attributeOperator": "IN"
+    }
+  ],
+  "rulePriority": 113,
+  "ruleIsEnabled": true,
+  "ruleAccess": "private_network"
+}

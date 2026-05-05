@@ -1,0 +1,154 @@
+{
+  "rules": [
+    {
+      "ruleName": "UdeM-PAR-psychia-carnin-he",
+      "ruleDescription": "accès serveur carnin-he.psychia.umontreal.ca",
+      "ruleAction": "allow",
+      "rulePriority": 1,
+      "ruleIsEnabled": true,
+      "ruleAccess": "private_network",
+      "ruleConditions": [
+        {
+          "attributeName": "umbrella.source.identity_ids",
+          "attributeValue": [1346149008],
+          "attributeOperator": "INTERSECT"
+        },
+        {
+          "attributeName": "umbrella.destination.private_resource_ids",
+          "attributeValue": [525015],
+          "attributeOperator": "IN"
+        }
+      ],
+      "ruleSettings": [
+        {
+          "settingName": "umbrella.logLevel",
+          "settingValue": "LOG_ALL"
+        },
+        {
+          "settingName": "umbrella.default.traffic",
+          "settingValue": "PRIVATE_NETWORK"
+        }
+      ]
+    },
+    {
+      "ruleName": "UdeM-PAR-regis-pr2sql2008",
+      "ruleDescription": "accès pour serveur pr2sql2008.sim.umontreal.ca",
+      "ruleAction": "allow",
+      "rulePriority": 1,
+      "ruleIsEnabled": true,
+      "ruleAccess": "private_network",
+      "ruleConditions": [
+        {
+          "attributeName": "umbrella.source.identity_ids",
+          "attributeValue": [1358424620],
+          "attributeOperator": "INTERSECT"
+        },
+        {
+          "attributeName": "umbrella.destination.private_resource_ids",
+          "attributeValue": [525016],
+          "attributeOperator": "IN"
+        }
+      ],
+      "ruleSettings": [
+        {
+          "settingName": "umbrella.logLevel",
+          "settingValue": "LOG_ALL"
+        },
+        {
+          "settingName": "umbrella.default.traffic",
+          "settingValue": "PRIVATE_NETWORK"
+        }
+      ]
+    },
+    {
+      "ruleName": "UdeM-PAR-cepsum-dvsport",
+      "ruleDescription": "accès dvsport-cepsum.cepsum",
+      "ruleAction": "allow",
+      "rulePriority": 1,
+      "ruleIsEnabled": true,
+      "ruleAccess": "private_network",
+      "ruleConditions": [
+        {
+          "attributeName": "umbrella.source.identity_ids",
+          "attributeValue": [1381495809],
+          "attributeOperator": "INTERSECT"
+        },
+        {
+          "attributeName": "umbrella.destination.private_resource_ids",
+          "attributeValue": [525017],
+          "attributeOperator": "IN"
+        }
+      ],
+      "ruleSettings": [
+        {
+          "settingName": "umbrella.logLevel",
+          "settingValue": "LOG_ALL"
+        },
+        {
+          "settingName": "umbrella.default.traffic",
+          "settingValue": "PRIVATE_NETWORK"
+        }
+      ]
+    },
+    {
+      "ruleName": "UdeM-PAR-ti-novipro",
+      "ruleDescription": "acces au serveur de gestion",
+      "ruleAction": "allow",
+      "rulePriority": 1,
+      "ruleIsEnabled": true,
+      "ruleAccess": "private_network",
+      "ruleConditions": [
+        {
+          "attributeName": "umbrella.source.identity_ids",
+          "attributeValue": [1346149008],
+          "attributeOperator": "INTERSECT"
+        },
+        {
+          "attributeName": "umbrella.destination.private_resource_ids",
+          "attributeValue": [525018],
+          "attributeOperator": "IN"
+        }
+      ],
+      "ruleSettings": [
+        {
+          "settingName": "umbrella.logLevel",
+          "settingValue": "LOG_ALL"
+        },
+        {
+          "settingName": "umbrella.default.traffic",
+          "settingValue": "PRIVATE_NETWORK"
+        }
+      ]
+    },
+    {
+      "ruleName": "UdeM-PAR-fas-alphonse",
+      "ruleDescription": "",
+      "ruleAction": "allow",
+      "rulePriority": 1,
+      "ruleIsEnabled": true,
+      "ruleAccess": "private_network",
+      "ruleConditions": [
+        {
+          "attributeName": "umbrella.source.identity_ids",
+          "attributeValue": [1358424620],
+          "attributeOperator": "INTERSECT"
+        },
+        {
+          "attributeName": "umbrella.destination.private_resource_ids",
+          "attributeValue": [525019],
+          "attributeOperator": "IN"
+        }
+      ],
+      "ruleSettings": [
+        {
+          "settingName": "umbrella.logLevel",
+          "settingValue": "LOG_ALL"
+        },
+        {
+          "settingName": "umbrella.default.traffic",
+          "settingValue": "PRIVATE_NETWORK"
+        }
+      ]
+    }
+  ]
+}

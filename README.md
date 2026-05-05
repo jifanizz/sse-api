@@ -24,9 +24,23 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+**.env**
+
+Add a `.env` file next to the notebook. Values come from the SSE GUI; the notebook loads them with `dotenv`.
+
+
+
+```env
+API_KEY='from_SSE_GUI'
+API_SECRET='from_SSE_GUI'
+```
+
+Do not commit `.env` or credentials.
+
+
 If project dependencies live in `pyproject.toml` with a lockfile, use `uv sync` instead of `uv pip install`.
 
-## Usage
+## Private Resource API Creation on SSE
 
 ```bash
 cd private-resource
@@ -45,16 +59,15 @@ Do not commit `.env` or credentials.
 
 **Notebook** — from `private-resource/`, run `main.ipynb` for a stepped process to create SSE private-resources.
 
+## Access-Policy API Creation on SSE
 
-## Project layout
+```bash
+cd access-policy
+```
 
-| Path | Purpose |
-|------|---------|
-| `main.py` | CLI entrypoint |
-| `pyproject.toml` | Project metadata |
-| `requirements.txt` | Dependencies |
-| `private-resource/` | Notebook and local assets |
 
-## Development
+**Notebook** — from `access-policy/`, run `main.ipynb` for a stepped process to create SSE Access-Policy Rules.
+
+
 
 When dependencies change, update `requirements.txt` or the lockfile and reinstall.
