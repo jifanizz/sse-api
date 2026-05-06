@@ -1,0 +1,644 @@
+{
+  "items": [
+    {
+      "resourceId": 274977,
+      "name": "adsagar-AWS-resources",
+      "friendlyName": "adsagar-AWS-resources",
+      "description": "private apps",
+      "dnsServerId": null,
+      "accessTypes": [
+        {
+          "type": "network"
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "10.0.10.10"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "http/https",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-07-01T06:19:24+00:00",
+      "modifiedAt": "2025-07-01T06:19:24+00:00",
+      "createdBy": "12702492",
+      "modifiedBy": "12702492",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 5445,
+      "name": "All Internal",
+      "friendlyName": "All Internal",
+      "description": "",
+      "dnsServerId": 433,
+      "accessTypes": [
+        {
+          "type": "network"
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "10.10.10.0/24"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "10.20.20.0/24"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "tcp",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "*.lab.local"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "tcp",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2023-09-13T20:37:08+00:00",
+      "modifiedAt": "2025-03-28T18:53:50+00:00",
+      "createdBy": "7322771",
+      "modifiedBy": "7322771",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 62104,
+      "name": "AzureManuPC",
+      "friendlyName": "AzureManuPC",
+      "description": "",
+      "dnsServerId": null,
+      "accessTypes": [
+        {
+          "type": "client",
+          "reachableAddresses": [
+            "10.1.0.5"
+          ],
+          "networkObjectIds": []
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "10.1.0.5"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-06-25T16:45:52+00:00",
+      "modifiedAt": "2025-03-28T18:53:50+00:00",
+      "createdBy": "12021328",
+      "modifiedBy": "11979423",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 235141,
+      "name": "Big-10-rang",
+      "friendlyName": "Big-10-rang",
+      "description": "",
+      "dnsServerId": null,
+      "accessTypes": [
+        {
+          "type": "client",
+          "reachableAddresses": [
+            "10.0.0.0/8",
+            "192.168.0.0/16"
+          ],
+          "networkObjectIds": []
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "10.0.0.0/8"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "192.168.0.0/16"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-06-12T12:37:24+00:00",
+      "modifiedAt": "2025-06-13T03:21:45+00:00",
+      "createdBy": "9505430",
+      "modifiedBy": "9505430",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 235545,
+      "name": "Big-192",
+      "friendlyName": "Big-192",
+      "description": "",
+      "dnsServerId": null,
+      "accessTypes": [
+        {
+          "type": "client",
+          "reachableAddresses": [
+            "192.168.0.0/16"
+          ],
+          "networkObjectIds": []
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "192.168.0.0/16"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-06-13T03:38:27+00:00",
+      "modifiedAt": "2025-06-13T03:38:27+00:00",
+      "createdBy": "9505430",
+      "modifiedBy": "9505430",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 172790,
+      "name": "calo-resource",
+      "friendlyName": "calo-resource",
+      "description": "",
+      "dnsServerId": null,
+      "accessTypes": [
+        {
+          "type": "network"
+        },
+        {
+          "type": "client",
+          "reachableAddresses": [
+            "192.168.99.0/24"
+          ],
+          "networkObjectIds": []
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "192.168.99.0/24"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-11T13:19:40+00:00",
+      "modifiedAt": "2025-04-13T15:12:35+00:00",
+      "createdBy": "9505430",
+      "modifiedBy": "9505430",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 176783,
+      "name": "Cipher-Health",
+      "friendlyName": "Cipher-Health",
+      "description": "Cipher Health",
+      "dnsServerId": null,
+      "accessTypes": [
+        {
+          "type": "network"
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "173.245.48.0/20"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "103.21.244.0/22"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "103.22.200.0/22"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "103.31.4.0/22"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "141.101.64.0/18"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "108.162.192.0/18"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "190.93.240.0/20"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "188.114.96.0/20"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "197.234.240.0/22"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "198.41.128.0/17"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "162.158.0.0/15"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "104.16.0.0/12"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "172.64.0.0/13"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "131.0.72.0/22"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-17T17:51:14+00:00",
+      "modifiedAt": "2025-04-17T17:51:14+00:00",
+      "createdBy": "c69e55df018045d594c89c91acfc1734",
+      "modifiedBy": "c69e55df018045d594c89c91acfc1734",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 176760,
+      "name": "CompassSiemens",
+      "friendlyName": "CompassSiemens",
+      "description": "Compass/Siemens",
+      "dnsServerId": null,
+      "accessTypes": [
+        {
+          "type": "network"
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "64.46.102.0/24"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "64.46.192.0/18"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "165.226.0.0/32"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "any",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-04-17T16:15:30+00:00",
+      "modifiedAt": "2025-04-17T16:15:30+00:00",
+      "createdBy": "37032289387f416bbeeee864b38a3220",
+      "modifiedBy": "37032289387f416bbeeee864b38a3220",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 197742,
+      "name": "ezhealth-com",
+      "friendlyName": "ezhealth co",
+      "description": "",
+      "dnsServerId": 433,
+      "accessTypes": [
+        {
+          "type": "client",
+          "reachableAddresses": [
+            "argocd-prd.ezhealth.com",
+            "argocd-stg.ezhealth.com"
+          ],
+          "networkObjectIds": []
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "argocd-stg.ezhealth.com"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "tcp",
+              "ports": "443,80,8080"
+            }
+          ]
+        },
+        {
+          "destinationAddr": [
+            "argocd-prd.ezhealth.com"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "tcp",
+              "ports": "443,80,8080"
+            },
+            {
+              "protocol": "udp",
+              "ports": "53"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-05-19T01:11:30+00:00",
+      "modifiedAt": "2025-05-19T01:14:00+00:00",
+      "createdBy": "12721876",
+      "modifiedBy": "12721876",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    },
+    {
+      "resourceId": 93330,
+      "name": "fd-priv-resource-1",
+      "friendlyName": "fd-priv-resource-1",
+      "description": "",
+      "dnsServerId": 1363,
+      "accessTypes": [
+        {
+          "type": "network"
+        },
+        {
+          "type": "branch"
+        }
+      ],
+      "resourceAddresses": [
+        {
+          "destinationAddr": [
+            "www.geofenced.com"
+          ],
+          "networkObjectIds": [],
+          "protocolPorts": [
+            {
+              "protocol": "http/https",
+              "ports": "1-65535"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2024-11-05T14:55:40+00:00",
+      "modifiedAt": "2025-03-28T18:53:50+00:00",
+      "createdBy": "11827989",
+      "modifiedBy": "11827989",
+      "resourceGroupIds": [],
+      "certificateId": null,
+      "importSource": null,
+      "enforcement": "CLOUD",
+      "logoUrl": ""
+    }
+  ],
+  "offset": 0,
+  "limit": 10,
+  "total": 51
+}
