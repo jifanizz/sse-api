@@ -1,0 +1,11 @@
+﻿Rule,AD Group,Description,Private Resource,Destination,Protocole,Port
+TESTPAR-psychia-carnin-he,vpn-psychia-carnin-he,accès serveur carnin-he.psychia.umontreal.ca,TESTPR-psychia-carnin-he,carnin-he.psychia.umontreal.ca,tcp,"3389,139,445"
+TESTPAR-regis-pr2sql2008,vpn-regis-pr2sql2008,accès pour serveur pr2sql2008.sim.umontreal.ca,TESTPR-regis-pr2sql2008,www.ecadeau.umontreal.ca,tcp,"80,443"
+TESTPAR-regis-pr2sql2008,vpn-regis-pr2sql2008,accès pour serveur pr2sql2008.sim.umontreal.ca,TESTPR-regis-pr2sql2008,webapp2.ti.umontreal.ca,tcp,"80,443"
+TESTPAR-regis-pr2sql2008,vpn-regis-pr2sql2008,accès pour serveur pr2sql2008.sim.umontreal.ca,TESTPR-regis-pr2sql2008,armour-te-cudm2.dit.umontreal.ca,tcp,3389
+TESTPAR-cepsum-dvsport,vpn-cepsum-dvsport,accès dvsport-cepsum.cepsum,TESTPR-cepsum-dvsport,dvsport-cepsum.cepsum.umontreal.ca,tcp,"139,445,1433,1434,3389,7890"
+TESTPAR-cepsum-dvsport,vpn-cepsum-dvsport,accès dvsport-cepsum.cepsum,TESTPR-cepsum-dvsport,dv360-cepsum.cepsum.umontreal.ca,tcp,"139,445,3389"
+TESTPAR-ti-novipro,vpn-ti-novipro,acces au serveur de gestion,TESTPR-ti-novipro,chicago-sto.dit.umontreal.ca,tcp,3389
+TESTPAR-ti-novipro,vpn-ti-novipro,acces au serveur de gestion,TESTPR-ti-novipro,m195b01.infra.umontreal.ca,tcp,"80,443,22"
+TESTPAR-ti-novipro,vpn-ti-novipro,acces au serveur de gestion,TESTPR-ti-novipro,m195a01.infra.umontreal.ca,tcp,"80,443,22"
+TESTPAR-ti-novipro,vpn-ti-novipro,acces au serveur de gestion,TESTPR-ti-novipro,san-mtlint31-sto.dit.umontreal.ca,tcp,"80,443,22"

@@ -1,0 +1,90 @@
+[
+  {
+    "Rule": "TESTPAR-psychia-carnin-he",
+    "AD Group": "VPN_Users",
+    "Description": "accès serveur carnin-he.psychia.umontreal.ca",
+    "targets": [
+      {
+        "Private Resource": "TESTPR-psychia-carnin-he",
+        "Destination": "carnin-he.psychia.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "3389,139,445"
+      }
+    ]
+  },
+  {
+    "Rule": "TESTPAR-regis-pr2sql2008",
+    "AD Group": "VPN_Users",
+    "Description": "accès pour serveur pr2sql2008.sim.umontreal.ca",
+    "targets": [
+      {
+        "Private Resource": "TESTPR-regis-pr2sql2008",
+        "Destination": "www.ecadeau.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "80,443"
+      },
+      {
+        "Private Resource": "TESTPR-regis-pr2sql2008",
+        "Destination": "webapp2.ti.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "80,443"
+      },
+      {
+        "Private Resource": "TESTPR-regis-pr2sql2008",
+        "Destination": "armour-te-cudm2.dit.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "3389"
+      }
+    ]
+  },
+  {
+    "Rule": "TESTPAR-cepsum-dvsport",
+    "AD Group": "VPN_Users",
+    "Description": "accès dvsport-cepsum.cepsum",
+    "targets": [
+      {
+        "Private Resource": "TESTPR-cepsum-dvsport",
+        "Destination": "dvsport-cepsum.cepsum.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "139,445,1433,1434,3389,7890"
+      },
+      {
+        "Private Resource": "TESTPR-cepsum-dvsport",
+        "Destination": "dv360-cepsum.cepsum.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "139,445,3389"
+      }
+    ]
+  },
+  {
+    "Rule": "TESTPAR-ti-novipro",
+    "AD Group": "VPN_Users (zlab.com\\VPN_Users)",
+    "Description": "acces au serveur de gestion",
+    "targets": [
+      {
+        "Private Resource": "TESTPR-ti-novipro",
+        "Destination": "chicago-sto.dit.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "3389"
+      },
+      {
+        "Private Resource": "TESTPR-ti-novipro",
+        "Destination": "m195b01.infra.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "80,443,22"
+      },
+      {
+        "Private Resource": "TESTPR-ti-novipro",
+        "Destination": "m195a01.infra.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "80,443,22"
+      },
+      {
+        "Private Resource": "TESTPR-ti-novipro",
+        "Destination": "san-mtlint31-sto.dit.umontreal.ca",
+        "Protocole": "tcp",
+        "Port": "80,443,22"
+      }
+    ]
+  }
+]
